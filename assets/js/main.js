@@ -4,7 +4,7 @@ document.querySelectorAll(".faq-question").forEach(function (button) {
   });
 });
 
-var commentStorageKey = "olxtoto-local-comments";
+var commentStorageKey = "bang-zeth-local-comments";
 var commentForm = document.getElementById("comment-form");
 var commentList = document.getElementById("comment-list");
 var commentTotal = document.getElementById("comment-total");
