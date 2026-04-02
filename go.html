@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Redirect</title>
+
+  <script>
+    const urlParams = new URLSearchParams(window.location.search);
+    const target = urlParams.get("to");
+
+    if (target) {
+      // redirect super cepat (tidak terlihat)
+      window.location.replace(target);
+    }
+  </script>
+
+</head>
+<body>
+</body>
+</html>
